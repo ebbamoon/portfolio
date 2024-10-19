@@ -1,15 +1,12 @@
 # Ebba Moon's Streamlit Portfolio
-# Shows main projects, resume etc
 
 # Ebba Moon
 # Data Scientist / AI Engineer
 # Hi! I’m a Data Scientist and AI Engineer skilled in Python, SQL, and Machine Learning.
-
 import streamlit as st
-from streamlit.components.v1 import html
 
 # 페이지 설정
-st.set_page_config(page_title="Korea on Map User-Guide", page_icon="📘", layout="wide")
+st.set_page_config(page_title="Ebba Moon Portfolio", page_icon="🖥️", layout="wide")
 
 # 스타일
 style = """
@@ -35,6 +32,8 @@ style = """
     }
 </style>
 """
+
+# 네비게이션 바
 
 # 타이틀 및 소개
 st.title("🌏 How to Use 'Korea on Map' Travel Guide")
