@@ -1,2 +1,2 @@
-# Ebba Moon's Portfolio
+# Ebba Moon's Streamlit Portfolio
 #
