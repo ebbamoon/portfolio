@@ -4,8 +4,7 @@
 # Data Scientist / AI Engineer
 # Hi! I’m a Data Scientist and AI Engineer skilled in Python, SQL, and Machine Learning.
 import streamlit as st
-st.write(st.__version__)
-# from streamlit_navigation_bar import st_navbar
+from streamlit_navigation_bar import st_navbar
 
 # 페이지 설정
 st.set_page_config(page_title="Ebba Moon Portfolio", page_icon="🖥️", layout="wide")
