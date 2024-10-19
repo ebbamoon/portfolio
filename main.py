@@ -1,2 +1,2 @@
 # Ebba Moon's Streamlit Portfolio
-# Shows main project,
+# Shows main projects, resume etc
