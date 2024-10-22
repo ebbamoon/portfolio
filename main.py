@@ -42,6 +42,7 @@ st.markdown("""
             - **SQL**: DBeaver, MySQL
             - **Deep Learning**: YOLOv8 (EfficientNet, )
             """, unsafe_allow_html=True)
+
 st.divider()
 
 st.divider()
