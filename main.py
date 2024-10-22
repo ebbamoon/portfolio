@@ -34,6 +34,7 @@ st.title("Ebba Moon")
 st.header("""Hi! I’m a Data Analyst skilled in Python, SQL, Machine Learning and Deep Learning.""")
 st.write('  ')
 st.image("pages/data/data.jpg") # caption="portfolio"
+
 st.divider()
 st.markdown("""
             ### 💡Programming Languages and Skills
