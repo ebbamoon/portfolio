@@ -1,10 +1,5 @@
 # Ebba Moon's Streamlit Portfolio
 import streamlit as st
-from streamlit_navigation_bar import st_navbar
-
-# Set your theme
-page = st_navbar(["Home", "Documentation", "Examples", "Community", "About"])
-st.write(page)
 
 # 페이지 설정
 st.set_page_config(page_title="Ebba Moon Portfolio", page_icon="🖥️", layout="wide")
@@ -34,89 +29,18 @@ style = """
 </style>
 """
 
-# 네비게이션바
-import os
-import streamlit as st
-from streamlit_navigation_bar import st_navbar
-import pages as pg
-
-st.set_page_config(initial_sidebar_state="collapsed")
-
-pages = ["Install", "User Guide", "API", "Examples", "Community", "GitHub"]
-parent_dir = os.path.dirname(os.path.abspath(__file__))
-logo_path = os.path.join(parent_dir, "cubes.svg")
-urls = {"GitHub": "https://github.com/gabrieltempass/streamlit-navigation-bar"}
-styles = {
-    "nav": {
-        "background-color": "royalblue",
-        "justify-content": "left",
-    },
-    "img": {
-        "padding-right": "14px",
-    },
-    "span": {
-        "color": "white",
-        "padding": "14px",
-    },
-    "active": {
-        "color": "var(--text-color)",
-        "background-color": "white",
-        "font-weight": "normal",
-        "padding": "14px",
-    }
-}
-options = {
-    "show_menu": False,
-    "show_sidebar": False,
-}
-
-page = st_navbar(
-    pages,
-    logo_path=logo_path,
-    urls=urls,
-    styles=styles,
-    options=options,
-)
-
-functions = {
-    "Home": pg.show_home,
-    "Install": pg.show_install,
-    "User Guide": pg.show_user_guide,
-    "API": pg.show_api,
-    "Examples": pg.show_examples,
-    "Community": pg.show_community,
-}
-go_to = functions.get(page)
-if go_to:
-    go_to()
-
-# from streamlit_option_menu import option_menu
-#
-# selected = option_menu(
-#     menu_title="Main Menu",
-#     options=["Home", "Projects", "Contact"],
-#     icons=["house", "book", "envelope"],
-#     menu_icon="cast",
-#     default_index=0,
-# )
-
 # 타이틀 및 소개
 st.title("Ebba Moon")
-st.write('Data Scientist / AI Engineer')
-st.image("https://images.studentuniverse.com/new/suwebui/photos/marketing-us/landing-pages/header/header-SEL.jpg",
-         caption="portfolio")
-st.markdown("""
-            Hi! I’m a Data Scientist and AI Engineer skilled in Python, SQL, and Machine Learning.""")
-
+st.header("""Hi! I’m a Data Analyst skilled in Python, SQL, Machine Learning and Deep Learning.""")
+st.write('  ')
+st.image("pages/data/data.jpg") # caption="portfolio"
 st.divider()
-
 st.markdown("""
-            ### 💡Why Use This Dashboard?
+            ### 💡Programming Languages and Skills
             - **Discover Hidden Gems**: Explore locations through high-quality images and engaging descriptions.
             - **Explore locations to plan your trip**: Explore popular destinations and check out visitor reviews.
             - **Embark on an Adventure**: Discover a journey to unearth exciting destinations handpicked through similarity analysis.
             """, unsafe_allow_html=True)
-
 st.divider()
 
 # 대시보드 사용 가이드(지역/관광지 선택)
@@ -132,7 +56,7 @@ with st.container():
                     unsafe_allow_html=True)
 
     with row1_col2:
-        st.image("img/select.png", width=400, caption="Choose your destination")
+        st.image("pages/data/data2.jpg", width=400, caption="Choose your destination")
 
     with row2_col1:
         st.markdown("### 2. Explore Attractions")
@@ -140,7 +64,7 @@ with st.container():
                     unsafe_allow_html=True)
 
     with row2_col2:
-        st.image("img/select2.png", width=400, caption="Discover popular attractions")
+        st.image("pages/data/data2.jpg", width=400, caption="Discover popular attractions")
 
     st.markdown("### 3. Ready to Explore?")
     st.markdown(
@@ -155,20 +79,20 @@ with st.container():
     with col1:
         st.markdown("### Google Maps")
         st.markdown("View the location on Google Maps.")
-        st.markdown("[View on Google Maps](https://maps.google.com)", unsafe_allow_html=True)
-        st.image("img/google_map.png", caption="Map View")
+        # st.markdown("[View on Google Maps](https://maps.google.com)", unsafe_allow_html=True)
+        st.image("pages/data/data2.jpg", caption="Map View")
 
     with col2:
         st.markdown("### Train Bookings")
         st.markdown("Visit Korail to book train tickets.")
         st.markdown("[Book Trains on Korail](http://www.letskorail.com)")
-        st.image("img/train.png", caption="Train Tickets")
+        st.image("pages/data/data2.jpg", caption="Train Tickets")
 
     with col3:
         st.markdown("### Bus Bookings")
         st.markdown("Access Kobus to book bus tickets.")
         st.markdown("[Book Buses on Kobus](http://www.kobus.co.kr)")
-        st.image("img/bus.png", caption="Bus Tickets")
+        st.image("pages/data/data2.jpg", caption="Bus Tickets")
 
 st.divider()
 
@@ -185,7 +109,7 @@ with col1:
                 might be interested in.""", unsafe_allow_html=True)
 
 with col2:
-    st.image("img/like.png", width=500)
+    st.image("pages/data/data2.jpg", width=500)
 
 st.divider()
 
@@ -194,7 +118,7 @@ st.header("🌟 Additional Features")
 col1, col2 = st.columns(2)
 with col1:
     col1.metric("Keyword Analysis", "Cloud Image")
-    st.image("img/다율/상소동산림욕장 워드클라우드.png", width=350)
+    st.image("pages/data/data2.jpg", width=350)
     st.markdown("""
                 The Keyword Analysis feature generates a Word Cloud visualizing the frequency of words in a text corpus. 
                 It provides a quick overview of the most commonly used words, allowing users to identify prominent 
@@ -202,7 +126,7 @@ with col1:
 
 with col2:
     col2.metric("Popular Months", "Donut Chart")
-    st.image("img/donut.png", width=350)
+    st.image("pages/data/data2.jpg", width=350)
     st.markdown("""
                 The Popular Months feature displays data in a Donut Chart format, illustrating the distribution 
                 of a categorical variable across different categories. It allows users to easily grasp the relative 
@@ -214,7 +138,7 @@ st.write('   ')
 col3, col4 = st.columns(2)
 with col3:
     st.metric("Sentiment Analysis", "Emoji Representation")
-    st.image("img/emoji.png", width=440)
+    st.image("pages/data/data2.jpg", width=440)
     st.markdown("""
                 The sentiment analysis provides a visual representation of review data, allowing users to 
                 interpret the sentiment of customer feedback more intuitively. By analyzing the words used 
@@ -224,7 +148,7 @@ with col3:
 
 with col4:
     col4.metric("Bigram NetworkX Graph", "Graph Image")
-    st.image("img/다율/스파크랜드그래프.png", width=350)
+    st.image("pages/data/data2.jpg", width=350)
     st.markdown("""
                 The Bigram NetworkX Graph visualizes the co-occurrence of words in a corpus using a graph structure. 
                 It helps to identify patterns and relationships between words based on their proximity and frequency 
