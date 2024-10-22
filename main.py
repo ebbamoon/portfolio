@@ -46,7 +46,7 @@ st.divider()
 
 st.divider()
 st.markdown("""
-            ### Work Experience
+            ### 💼Work Experience
             - **Python*: Explore locations through high-quality images and engaging descriptions.
             - **SQL**: Explore popular destinations and check out visitor reviews.
             - **Deep Learning**: Discover a journey to unearth exciting destinations handpicked through similarity analysis.
