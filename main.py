@@ -47,9 +47,8 @@ st.divider()
 st.divider()
 st.markdown("""
             ### 💼Work Experience
-            - **Python*: Explore locations through high-quality images and engaging descriptions.
-            - **SQL**: Explore popular destinations and check out visitor reviews.
-            - **Deep Learning**: Discover a journey to unearth exciting destinations handpicked through similarity analysis.
+            - **MUSINSA*: Explore locations through high-quality images and engaging descriptions.
+            - **Walt Disney World**: Explore popular destinations and check out visitor reviews.
             """, unsafe_allow_html=True)
 st.divider()
 
