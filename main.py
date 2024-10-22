@@ -38,7 +38,7 @@ st.image("pages/data/data.jpg") # caption="portfolio"
 st.divider()
 st.markdown("""
             ### 💡Programming Languages and Skills
-            - **Discover Hidden Gems**: Explore locations through high-quality images and engaging descriptions.
+            - **Python*: Explore locations through high-quality images and engaging descriptions.
             - **Explore locations to plan your trip**: Explore popular destinations and check out visitor reviews.
             - **Embark on an Adventure**: Discover a journey to unearth exciting destinations handpicked through similarity analysis.
             """, unsafe_allow_html=True)
