@@ -40,13 +40,13 @@ st.markdown("""
             ### 💡Programming Languages and Skills
             - **Python*: VSCode, PyCharm, Jupyter Notebook, Google Colab
             - **SQL**: DBeaver, MySQL
-            - **Deep Learning**: YOLOv8(EfficientNet)
+            - **Deep Learning**: YOLOv8 (EfficientNet, )
             """, unsafe_allow_html=True)
 st.divider()
 
 st.divider()
 st.markdown("""
-            ### 💡Programming Languages and Skills
+            ### Work Experience
             - **Python*: Explore locations through high-quality images and engaging descriptions.
             - **SQL**: Explore popular destinations and check out visitor reviews.
             - **Deep Learning**: Discover a journey to unearth exciting destinations handpicked through similarity analysis.
