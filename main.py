@@ -39,8 +39,8 @@ st.divider()
 st.markdown("""
             ### 💡Programming Languages and Skills
             - **Python*: Explore locations through high-quality images and engaging descriptions.
-            - **Explore locations to plan your trip**: Explore popular destinations and check out visitor reviews.
-            - **Embark on an Adventure**: Discover a journey to unearth exciting destinations handpicked through similarity analysis.
+            - **SQL**: Explore popular destinations and check out visitor reviews.
+            - **Machine Learning**: Discover a journey to unearth exciting destinations handpicked through similarity analysis.
             """, unsafe_allow_html=True)
 st.divider()
 
