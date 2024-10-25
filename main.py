@@ -70,7 +70,6 @@ with st.container():
         st.markdown("### 2. Explore Attractions")
         st.markdown("<span style='font-size:18px;'>Each region features up to 5 top attractions selected through the analysis of reviews and transportation data.</span>",
                     unsafe_allow_html=True)
-
     with row2_col2:
         st.image("pages/data/data2.jpg", width=400, caption="Discover popular attractions")
 
