@@ -176,7 +176,7 @@ with st.expander("What if I encounter issues with booking?"):
 st.divider()
 
 # 피드백
-st.header("📢 We'd Love to Hear from You!")
+st.header("📢Contact Info")
 st.markdown("Please share your thoughts and experiences using this dashboard. "
             "Your feedback is invaluable to us!")
 
