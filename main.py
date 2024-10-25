@@ -177,7 +177,7 @@ st.divider()
 
 # 피드백
 st.header("📢Contact Info")
-st.markdown("You Could Contact My Email Through This Section")
+st.markdown("You could Contact My Email Through This Section")
 
 # 피드백 입력
 feedback = st.text_area("Enter your Message here:", height=150)
