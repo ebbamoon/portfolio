@@ -180,13 +180,12 @@ st.header("📢Contact Info")
 st.markdown("You Could Contact My Email Through This Section")
 
 # 피드백 입력
-feedback = st.text_area("Enter your feedback here:", height=150)
+feedback = st.text_area("Enter your Message here:", height=150)
 if st.button('Submit Feedback'):
     if feedback:
         st.success("Thank you for your feedback!")
     else:
         st.error("Please enter some feedback before submitting.")
-
 st.divider()
 
 # 마무리
