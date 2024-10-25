@@ -63,7 +63,6 @@ with st.container():
         st.markdown("<span style='font-size:18px;'>"
                     "Click on the section you want to expand and explore in-depth information about each tourist spot.</span>",
                     unsafe_allow_html=True)
-
     with row1_col2:
         st.image("pages/data/data2.jpg", width=400, caption="Choose your destination")
 
