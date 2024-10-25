@@ -195,4 +195,4 @@ st.subheader("🤗 We hope this guide enhances your travel planning experience!"
 st.caption("For any assistance, feel free to contact our support team.")
 
 # 웹사이트 보면 있길래...
-st.text("Ebba Moon © ")
+st.text("Ebba Moon Portfolio © ")
