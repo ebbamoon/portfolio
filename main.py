@@ -177,8 +177,7 @@ st.divider()
 
 # 피드백
 st.header("📢Contact Info")
-st.markdown("Please share your thoughts and experiences using this dashboard. "
-            "Your feedback is invaluable to us!")
+st.markdown("You Could Contact Me")
 
 # 피드백 입력
 feedback = st.text_area("Enter your feedback here:", height=150)
