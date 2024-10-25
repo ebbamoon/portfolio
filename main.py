@@ -190,7 +190,7 @@ st.divider()
 
 # 마무리
 st.subheader("🤗 We hope this guide enhances your travel planning experience!")
-st.caption("For any assistance, feel free to contact our support team.")
+st.caption("For any questions, feel free to contact me.")
 
 # 웹사이트 보면 있길래...
 st.text("Ebba Moon Portfolio © ")
