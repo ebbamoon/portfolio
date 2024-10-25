@@ -189,7 +189,7 @@ if st.button('Submit Feedback'):
 st.divider()
 
 # 마무리
-st.subheader("🤗 We hope this guide enhances your travel planning experience!")
+st.subheader("🤗This is the end of my portfolio. Thank You")
 st.caption("For any questions, feel free to contact me.")
 
 # 웹사이트 보면 있길래...
