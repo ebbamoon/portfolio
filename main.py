@@ -116,6 +116,7 @@ with col1:
 
 with col2:
     st.image("pages/data/data2.jpg", width=500)
+
 st.divider()
 
 # 시각화
