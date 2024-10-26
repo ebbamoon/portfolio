@@ -137,7 +137,6 @@ with col2:
                 The Popular Months feature displays data in a Donut Chart format, illustrating the distribution 
                 of a categorical variable across different categories. It allows users to easily grasp the relative 
                 proportions of each category within the dataset, based on the analysis of review dates.""")
-
 st.write('   ')
 st.write('   ')
 
