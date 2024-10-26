@@ -151,7 +151,6 @@ with col3:
                 in the reviews, it categorizes them as positive or negative and represents the feedback 
                 using appropriate emojis for easier interpretation.
                 """)
-
 with col4:
     col4.metric("Bigram NetworkX Graph", "Graph Image")
     st.image("pages/data/data2.jpg", width=350)
