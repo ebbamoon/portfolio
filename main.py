@@ -185,7 +185,7 @@ if st.button('Submit Feedback'):
         st.error("Please enter message before submitting.")
 st.divider()
 
-# 마무리
+# 엔딩
 st.subheader("🤗This is the end of my portfolio. Thank You")
 st.caption("For any questions, feel free to contact me.")
 
