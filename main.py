@@ -129,7 +129,6 @@ with col1:
                 The Keyword Analysis feature generates a Word Cloud visualizing the frequency of words in a text corpus. 
                 It provides a quick overview of the most commonly used words, allowing users to identify prominent 
                 themes or topics extracted from visitor reviews.""")
-
 with col2:
     col2.metric("Popular Months", "Donut Chart")
     st.image("pages/data/data2.jpg", width=350)
