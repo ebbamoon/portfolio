@@ -159,7 +159,6 @@ with col4:
                 The Bigram NetworkX Graph visualizes the co-occurrence of words in a corpus using a graph structure. 
                 It helps to identify patterns and relationships between words based on their proximity and frequency 
                 of occurrence.""")
-
 st.divider()
 
 # FAQ
