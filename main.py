@@ -183,9 +183,9 @@ st.markdown("You could contact my email through this section")
 feedback = st.text_area("Enter your Message here:", height=150)
 if st.button('Submit Feedback'):
     if feedback:
-        st.success("Thank you for your feedback!")
+        st.success("Thank you for your message!")
     else:
-        st.error("Please enter some feedback before submitting.")
+        st.error("Please enter message before submitting.")
 st.divider()
 
 # 마무리
@@ -193,4 +193,4 @@ st.subheader("🤗This is the end of my portfolio. Thank You")
 st.caption("For any questions, feel free to contact me.")
 
 # 웹사이트 보면 있길래...
-st.text("Ebba Moon Portfolio © ")
+st.text("Ebba Moon Portfolio © 2025")
