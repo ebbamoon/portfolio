@@ -179,7 +179,7 @@ st.divider()
 st.header("📢Contact Info")
 st.markdown("You could contact my email through this section")
 
-# 피드백 입력
+# 이메일 입력
 feedback = st.text_area("Enter your Message here:", height=150)
 if st.button('Submit Feedback'):
     if feedback:
