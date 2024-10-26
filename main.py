@@ -164,7 +164,7 @@ with col4:
 st.divider()
 
 # FAQ
-st.header("❓ Frequently Asked Questions")
+st.header("❓Frequently Asked Questions")
 with st.expander("How do I navigate between different regions?"):
     st.markdown("Use the sidebar to select the region you want to explore. "
                 "Each region has its own dedicated page with information on top attractions.")
