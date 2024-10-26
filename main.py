@@ -166,6 +166,7 @@ st.header("❓Frequently Asked Questions")
 with st.expander("How do I navigate between different regions?"):
     st.markdown("Use the sidebar to select the region you want to explore. "
                 "Each region has its own dedicated page with information on top attractions.")
+
 with st.expander("What if I encounter issues with booking?"):
     st.markdown("You can contact our support team via the 'Help' section in the sidebar or directly through "
                 "the contact page linked at the bottom of the dashboard.")
