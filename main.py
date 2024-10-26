@@ -185,6 +185,7 @@ if st.button('Submit Feedback'):
         st.success("Thank you for your message!")
     else:
         st.error("Please enter message before submitting.")
+
 st.divider()
 
 # 엔딩 멘트
