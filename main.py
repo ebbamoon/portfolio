@@ -175,7 +175,7 @@ with st.expander("What if I encounter issues with booking?"):
 
 st.divider()
 
-# 피드백
+# 이메일
 st.header("📢Contact Info")
 st.markdown("You could contact my email through this section")
 
