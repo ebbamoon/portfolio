@@ -52,7 +52,9 @@ with st.container():
     row2_col1, row2_col2 = st.columns([1, 1])
     with row1_col1:
         st.markdown("### 1. MUSINSA (Seoul, Korea)")
-        st.markdown("<span style='font-size:18px;'>2022.05-2024.01(2 Years) / Musinsa is the Biggest Fashion Platform Company in Korea</span>",
+        st.markdown("<span style='font-size:18px;'>- Period : 2022.05-2024.01(2 Years)</span>",
+                    unsafe_allow_html=True)
+        st.markdown("<span style='font-size:18px;'>- Company : MUSINSA is the biggest fashion platform in Korea.</span>",
                     unsafe_allow_html=True)
         st.markdown("<span style='font-size:18px;'>- Each region features up to 5 top attractions selected through the analysis of reviews and transportation data.</span>",
                     unsafe_allow_html=True)
