@@ -64,7 +64,6 @@ with st.container():
                     unsafe_allow_html=True)
     with row2_col2:
         st.image("pages/data/data2.jpg", width=400, caption="Discover popular attractions")
-
 st.divider()
 
 # 관광지 위치 및 교통
