@@ -56,9 +56,9 @@ with st.container():
                     unsafe_allow_html=True)
         st.markdown("<span style='font-size:18px;'>- Company : MUSINSA is the biggest fashion platform in Korea.</span>",
                     unsafe_allow_html=True)
-        st.markdown("<span style='font-size:18px;'>- role 1 : Each region features up to 5 top attractions selected through the analysis of reviews and transportation data.</span>",
+        st.markdown("<span style='font-size:18px;'>- Role 1 : Each region features up to 5 top attractions selected through the analysis of reviews and transportation data.</span>",
                     unsafe_allow_html=True)
-        st.markdown("<span style='font-size:18px;'>- role 2 : Each region features up to 5 top attractions selected through the analysis of reviews and transportation data.</span>",
+        st.markdown("<span style='font-size:18px;'>- Role 2 : Each region features up to 5 top attractions selected through the analysis of reviews and transportation data.</span>",
                     unsafe_allow_html=True)
 
     with row1_col2:
