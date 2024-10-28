@@ -51,7 +51,7 @@ with st.container():
     row1_col1, row1_col2 = st.columns([1, 1])
     row2_col1, row2_col2 = st.columns([1, 1])
     with row1_col1:
-        st.markdown("### 1. Select a Region")
+        st.markdown("### 1. MUSINSA (Seoul, Korea)")
         st.markdown("<span style='font-size:18px;'>"
                     "Click on the section you want to expand and explore in-depth information about each tourist spot.</span>",
                     unsafe_allow_html=True)
@@ -59,7 +59,7 @@ with st.container():
         st.image("pages/data/data2.jpg", width=400, caption="Choose your destination")
 
     with row2_col1:
-        st.markdown("### 2. Explore Attractions")
+        st.markdown("### 2. Walt Disney Parks & Resorts U.S. Inc (Florida, USA)")
         st.markdown("<span style='font-size:18px;'>Each region features up to 5 top attractions selected through the analysis of reviews and transportation data.</span>",
                     unsafe_allow_html=True)
     with row2_col2:
