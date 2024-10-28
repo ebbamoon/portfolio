@@ -44,12 +44,6 @@ st.markdown("""
             - **Deep Learning**: CNN, YOLOv8 (EfficientNet, )
             """, unsafe_allow_html=True)
 st.divider()
-st.markdown("""
-            ### 💼 Work Experience
-            - **MUSINSA (Seoul, Korea)**: Explore locations through high-quality images and engaging descriptions.
-            - **Walt Disney World (Florida, USA)**: Explore popular destinations and check out visitor reviews.
-            """, unsafe_allow_html=True)
-st.divider()
 
 # 대시보드 사용 가이드(지역/관광지 선택)
 with st.container():
