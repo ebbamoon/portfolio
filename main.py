@@ -40,7 +40,7 @@ st.markdown("""
             ### 💡Programming Languages and Skills
             - **Python**: VSCode, PyCharm, Jupyter Notebook, Google Colab
             - **SQL**: DBeaver, MySQL
-            - **Deep Learning**: YOLOv8 (EfficientNet, )
+            - **Deep Learning**: CNN, YOLOv8 (EfficientNet, )
             """, unsafe_allow_html=True)
 st.divider()
 st.markdown("""
