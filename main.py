@@ -53,7 +53,7 @@ with st.container():
     with row1_col1:
         st.markdown("### 1. MUSINSA (Seoul, Korea)")
         st.markdown("<span style='font-size:18px;'>"
-                    "- Click on the section you want to expand and explore in-depth information about each tourist spot.</span>",
+                    "- Click on the section you want to expand and explore in-depth information about each tourist spot.",
                     "- Click on the section you want to expand and explore in-depth information about each tourist spot.</span>",
                     unsafe_allow_html=True)
     with row1_col2:
