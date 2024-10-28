@@ -38,7 +38,7 @@ st.image("pages/data/data.jpg") # caption="portfolio"
 st.divider()
 st.markdown("""
             ### 💡Programming Languages and Skills
-            - **Python*: VSCode, PyCharm, Jupyter Notebook, Google Colab
+            - **Python**: VSCode, PyCharm, Jupyter Notebook, Google Colab
             - **SQL**: DBeaver, MySQL
             - **Deep Learning**: YOLOv8 (EfficientNet, )
             """, unsafe_allow_html=True)
