@@ -46,7 +46,7 @@ st.markdown("""
 st.divider()
 st.markdown("""
             ### 💼 Work Experience
-            - **MUSINSA (Seoul, Korea)*: Explore locations through high-quality images and engaging descriptions.
+            - **MUSINSA (Seoul, Korea)**: Explore locations through high-quality images and engaging descriptions.
             - **Walt Disney World (Florida, USA)**: Explore popular destinations and check out visitor reviews.
             """, unsafe_allow_html=True)
 st.divider()
