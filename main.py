@@ -41,7 +41,7 @@ st.markdown("""
             - **Python**: VSCode, PyCharm, Jupyter Notebook, Google Colab
             - **SQL**: DBeaver, MySQL
             - **Machine Learning**: KNN, Ensemble Learning
-            - **Deep Learning**: CNN, YOLOv8 (EfficientNet, )
+            - **Deep Learning**: CNN, LLM, YOLOv8
             """, unsafe_allow_html=True)
 st.divider()
 
@@ -53,10 +53,10 @@ with st.container():
     with row1_col1:
         st.markdown("### 1. MUSINSA (Seoul, Korea)")
         st.markdown("<span style='font-size:18px;'>"
-                    "Click on the section you want to expand and explore in-depth information about each tourist spot.</span>",
+                    "- Click on the section you want to expand and explore in-depth information about each tourist spot.</span>",
                     unsafe_allow_html=True)
     with row1_col2:
-        st.image("pages/data/data2.jpg", width=400, caption="Choose your destination")
+        st.image("pages/data/data2.jpg", width=400, caption="MUSINSA")
 
     with row2_col1:
         st.markdown("### 2. Walt Disney Parks & Resorts U.S. Inc (Florida, USA)")
