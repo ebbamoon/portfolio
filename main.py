@@ -176,6 +176,6 @@ if st.button('Submit Feedback'):
 st.divider()
 
 # 엔딩 멘트
-st.subheader("🤗This is the end of my portfolio. Thank You")
+st.subheader("This is the end of my portfolio. Thank You 🤗")
 st.caption("For any questions, feel free to contact me.")
 st.text("Ebba Moon Portfolio © 2025")
