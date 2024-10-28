@@ -55,6 +55,8 @@ with st.container():
         st.text('From 2022 to 2024 / Biggest Fashion Platform Company in Korea')
         st.markdown("<span style='font-size:18px;'>- Each region features up to 5 top attractions selected through the analysis of reviews and transportation data.</span>",
                     unsafe_allow_html=True)
+        st.markdown("<span style='font-size:18px;'>- Each region features up to 5 top attractions selected through the analysis of reviews and transportation data.</span>",
+                    unsafe_allow_html=True)
 
 
     with row1_col2:
