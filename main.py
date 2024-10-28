@@ -53,10 +53,9 @@ st.divider()
 
 # 대시보드 사용 가이드(지역/관광지 선택)
 with st.container():
-    st.header("🔍Data Science Projects")
+    st.header("💼 Work Experience")
     row1_col1, row1_col2 = st.columns([1, 1])
     row2_col1, row2_col2 = st.columns([1, 1])
-
     with row1_col1:
         st.markdown("### 1. Select a Region")
         st.markdown("<span style='font-size:18px;'>"
@@ -79,7 +78,7 @@ st.divider()
 
 # 관광지 위치 및 교통
 with st.container():
-    st.header("📌 Detailed Information on Attractions")
+    st.header("🔍Data Science Projects")
     col1, col2, col3 = st.columns(3)
     with col1:
         st.markdown("### Google Maps")
