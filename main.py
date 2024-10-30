@@ -161,7 +161,6 @@ with st.expander("How do I navigate between different regions?"):
 with st.expander("What if I encounter issues with booking?"):
     st.markdown("You can contact our support team via the 'Help' section in the sidebar or directly through "
                 "the contact page linked at the bottom of the dashboard.")
-
 st.divider()
 
 # 이메일
