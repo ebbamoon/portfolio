@@ -82,12 +82,12 @@ with st.container():
     st.header("🔍Data Science Projects")
     col1, col2, col3 = st.columns(3)
     with col1:
-        st.markdown("### Project1")
+        st.markdown("### Project 1")
         st.markdown("View the location on Google Maps.")
         st.image("pages/data/data2.jpg", caption="Map View")
 
     with col2:
-        st.markdown("### Train Bookings")
+        st.markdown("### Project 2")
         st.markdown("Visit Korail to book train tickets.")
         st.markdown("[Book Trains on Korail](http://www.letskorail.com)")
         st.image("pages/data/data2.jpg", caption="Train Tickets")
