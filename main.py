@@ -111,7 +111,6 @@ with col1:
                 By analyzing visitor reviews of the selected spot, we recommend 
                 places based on ratings and accessibility. This helps you discover new places that you 
                 might be interested in.""", unsafe_allow_html=True)
-
 with col2:
     st.image("pages/data/data2.jpg", width=500)
 
