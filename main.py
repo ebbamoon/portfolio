@@ -82,9 +82,8 @@ with st.container():
     st.header("🔍Data Science Projects")
     col1, col2, col3 = st.columns(3)
     with col1:
-        st.markdown("### Google Maps")
+        st.markdown("### Project1")
         st.markdown("View the location on Google Maps.")
-        # st.markdown("[View on Google Maps](https://maps.google.com)", unsafe_allow_html=True)
         st.image("pages/data/data2.jpg", caption="Map View")
 
     with col2:
