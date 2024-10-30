@@ -93,7 +93,7 @@ with st.container():
         st.image("pages/data/data2.jpg", caption="Train Tickets")
 
     with col3:
-        st.markdown("### Bus Bookings")
+        st.markdown("### Project 3")
         st.markdown("Access Kobus to book bus tickets.")
         st.markdown("[Book Buses on Kobus](http://www.kobus.co.kr)")
         st.image("pages/data/data2.jpg", caption="Bus Tickets")
