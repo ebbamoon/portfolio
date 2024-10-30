@@ -68,6 +68,12 @@ with st.container():
         st.markdown("### 2. Walt Disney Parks & Resorts U.S. Inc (Florida, USA)")
         st.markdown("<span style='font-size:18px;'>Each region features up to 5 top attractions selected through the analysis of reviews and transportation data.</span>",
                     unsafe_allow_html=True)
+        st.markdown("<span style='font-size:18px;'>- Company : MUSINSA is the biggest fashion platform in Korea.</span>",
+                    unsafe_allow_html=True)
+        st.markdown("<span style='font-size:18px;'>- Role 1 : Each region features up to 5 top attractions selected through the analysis of reviews and transportation data.</span>",
+                    unsafe_allow_html=True)
+        st.markdown("<span style='font-size:18px;'>- Role 2 : Each region features up to 5 top attractions selected through the analysis of reviews and transportation data.</span>",
+                    unsafe_allow_html=True)
     with row2_col2:
         st.image("pages/data/data2.jpg", width=400, caption="Discover popular attractions")
 st.divider()
