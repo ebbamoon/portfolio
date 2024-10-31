@@ -35,6 +35,7 @@ st.header("""Hi! I’m a Data Analyst skilled in Python, SQL, Machine Learning a
 st.write('  ')
 st.image("pages/data/data.jpg") # caption="portfolio"
 
+#
 st.divider()
 st.markdown("""
             ### 💡Programming Languages and Skills
