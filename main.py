@@ -29,7 +29,7 @@ style = """
 </style>
 """
 
-#  및 소개
+# 이름 및 소개
 st.title("Ebba Moon")
 st.header("""Hi! I’m a Data Analyst skilled in Python, SQL, Machine Learning and Deep Learning.""")
 st.write('  ')
