@@ -1,7 +1,7 @@
 # Ebba Moon's Portfolio
 import streamlit as st
 
-# 페이지 탭 설정
+# 페이지탭 설정
 st.set_page_config(page_title="Ebba Moon Portfolio", page_icon="🖥️", layout="wide")
 
 # 스타일
