@@ -1,4 +1,4 @@
-# Ebba Moon's Str Portfolio
+# Ebba Moon's St Portfolio
 import streamlit as st
 
 # 페이지 탭 설정
