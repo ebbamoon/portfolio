@@ -9,7 +9,7 @@ style = """
 <style>
     .title-wrapper {
         padding: 10px 0;
-    }
+        }
     h1, h2, h3 {
         color: #4A90E2;
     }
