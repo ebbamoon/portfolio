@@ -46,7 +46,7 @@ st.markdown("""
             """, unsafe_allow_html=True)
 st.divider()
 
-# 대시보드 사용 가이드(지역/관광지 선택)
+# Work Experience
 with st.container():
     st.header("💼 Work Experience")
     row1_col1, row1_col2 = st.columns([1, 1])
