@@ -78,7 +78,7 @@ with st.container():
         st.image("pages/data/data2.jpg", width=400, caption="Discover popular attractions")
 st.divider()
 
-# 관광지 위치 및 교통
+# 데이터 사이언스 프로젝트
 with st.container():
     st.header("🔍Data Science Projects")
     col1, col2, col3 = st.columns(3)
